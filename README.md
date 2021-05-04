@@ -7,7 +7,7 @@ This repository contains HTML5 and CSS projects.
 Things that I have learned
 
 - Semantic elements
-- Booleans attributes in HTML5
+- Boolean attributes in HTML5
   
 ## CSS
 
