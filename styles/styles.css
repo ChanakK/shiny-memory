@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  font-size: 5rem;
+  padding: 10px;
+  border: 10px dashed red;
+  height: 100vh;
+  width: 100vh;
+  background: #000 url('/Project-image-repo/Background-property-images/cute-girl.jpg') no-repeat left ;
+background-clip: text;
+color: transparent;
+}

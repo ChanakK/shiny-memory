@@ -1,0 +1,100 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="first webpage, learning to build a website"
+    />
+    <meta name="description" content="this is a new webpage" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      table {
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      th, td {
+        padding: 10px;
+        border-bottom: 1px solid #c4dcf3;
+      }
+
+      th {
+        background-color: #427fef;
+        color: #fff;
+        
+      }
+
+      tr:nth-of-type(odd) {
+        background-color: #eef7ff ;
+      }
+      ::selection {
+        background-color: red;
+      }
+
+     /* article box */
+     article {
+       border-radius: 25px;
+       margin: 10px;
+       width: 300px;
+       height: 300px;
+       background-color: tomato;
+       box-shadow:8px 8px 0.5px   lightgrey;
+     }
+
+
+    </style>
+  </head>
+  <body>
+    <button><a href="/pages/secondpage.html">Next page</a></button>
+    <table>
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>OrderID</th>
+          <th>Order Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>USA</td>
+          <td>1000</td>
+          <td>$1,300</td>
+        </tr>
+        <tr>
+          <td>USA</td>
+          <td>1001</td>
+          <td>$700</td>
+        </tr>
+        <tr>
+          <td>CA</td>
+          <td>1002</td>
+          <td>$2000</td>
+        </tr>
+        <tr>
+          <td>CA</td>
+          <td>1003</td>
+          <td>$1000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th colspan="2">$5000</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <article>
+
+    </article>
+
+
+  </body>
+</html>
